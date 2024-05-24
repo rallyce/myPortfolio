@@ -1,0 +1,84 @@
+/* replace with your own fonts if need be */
+@import url('https://fonts.googleapis.com/css2?family=Reenie+Beanie&family=Source+Code+Pro');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#app {
+    font-family: 'Source Code Pro', monospace; /* update if importing a different font than the one above */
+    font-size: 16px; /* update if needed (16px is the standard for modern browsers) */
+    height: 100%;
+    margin: 0;
+    width: 100%;
+    scroll-behavior: smooth;
+}
+
+/* Custom HTML & CSS Logo */
+#custom-logo {
+    font-family: 'Reenie Beanie', cursive;
+}
+
+/* Mobile Behavior */
+html {
+    -webkit-tap-highlight-color: transparent;
+}
+
+/* Dark Mode */
+@media (prefers-color-scheme: dark) {
+    html {
+        background-color: rgb(15, 23, 42);
+    }
+}
+
+
+#nav-background{
+    color: rgb(0, 0, 0);
+    background: linear-gradient(to right, rgb(23, 0, 42), rgb(255, 207, 149));
+    outline: 3px solid rgb(255, 141, 34);
+}
+
+
+#main-view{
+    background: linear-gradient(to right, rgb(26, 0, 34), rgb(106, 86, 62));
+    outline: 3px solid orange;
+}
+
+#experience1{
+    color: rgb(212, 212, 212);
+    display: flex;
+    background: linear-gradient(to right, rgb(64, 64, 64), rgb(0, 0, 0));
+}
+
+#expirence-text{
+    color: rgb(212, 212, 212);
+}
+
+#languages-stack{
+    color: #858585;
+}
+
+#logo-img{
+    width: 170px;
+    height: 80px;
+}
+
+#landing-v{
+    color: rgb(212, 212, 212);
+}
+
+#title-about{
+    color: rgb(212, 212, 212);
+}
+
+#about-text1{
+    color:rgb(212, 212, 212);
+}
+
+#expience-title{
+    color: rgb(212, 212, 212);
+}
+
+#work1{
+    color: rgb(212, 212, 212);
+}
